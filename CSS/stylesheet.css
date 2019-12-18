@@ -46,3 +46,5 @@
         list-style: outside none none;
         padding: 10px;
     }
+
+    @media (max-width: 575.98px) { ... }
