@@ -1,0 +1,50 @@
+/* Global Layout Set-up */
+* { 
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: effra, sans-serif;
+    color:#000;
+    background:white;
+  }
+
+  /* Link Styles */
+
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    a:hover {
+    color: darkkhaki;
+    }
+
+    /* Section Styles */
+
+    .delivery {
+        color: white;
+        background-color: black;
+        text-transform: uppercase;
+        padding: 5px 40%;
+        min-height: 75px;
+        font-size: 0.75em;  
+    }
+
+    .main-nav {
+        /* width:50%; */
+        padding: 0px;
+    }
+
+    .main-nav-list {
+        /* width:50%; */
+        display: inline-block;
+        width: auto;
+        list-style: outside none none;
+        padding: 10px;
+    }
+
+    @media (max-width: 575.98px) { ... }
