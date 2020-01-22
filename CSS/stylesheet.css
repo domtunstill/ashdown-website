@@ -12,6 +12,9 @@
     font-size: 20px;
     margin-bottom: 0px;
   }
+  .email {
+    font-size: 19px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -36,16 +39,15 @@
     border-bottom: 1px solid black;
   }
   .coming_soon {
-    font-size: 18px;
+    font-size: 9px;
     margin-bottom: 0px;
+  }
+  .email {
+    font-size: 8px;
   }
 }
 
 .main_container {
   height: 500px;
   margin-top: 250px;
-}
-
-.email {
-  font-size: 19px;
 }
