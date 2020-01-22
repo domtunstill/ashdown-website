@@ -8,6 +8,10 @@
   #footer-left {
     text-align: left;
   }
+  .coming_soon {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -31,16 +35,15 @@
     text-align: left;
     border-bottom: 1px solid black;
   }
+  .coming_soon {
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
 }
 
 .main_container {
   height: 500px;
   margin-top: 250px;
-}
-
-.coming_soon {
-  font-size: 20px;
-  margin-bottom: 0px;
 }
 
 .email {
