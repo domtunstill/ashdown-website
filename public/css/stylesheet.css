@@ -1,3 +1,8 @@
+.container section:first-child {
+    display: flex;
+    align-items: flex-start; /* new */
+  }
+
 @media (min-width: 768px) {
   #footer-right {
     text-align: right;
